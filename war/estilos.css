@@ -1,0 +1,67 @@
+ body {
+    padding-left: 11em;
+    font-family: "Homer Simpson", cursive;
+   	color:purple;
+    background-color: #d8da3d}
+    table{
+     background-color: #80ff80 
+    }
+    tr {
+     bgcolor:#AF7AC5 }
+     th{
+ 	 font: oblique bold 30px cursive;
+  		color:black;
+  }
+  td{
+ 	 font: oblique bold 12px cursive;
+  		
+  }
+    a{font: oblique bold 120% cursive;
+    color:red;
+    }
+  ul.navbar {
+    list-style-type: none;
+    padding: 1;
+    margin: 3;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 350%  
+       
+          }
+  h2 {
+    font-family: "Homer Simpson", cursive;
+    color:#8080c0;
+          font-size: 200%  
+     }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+     
+caption { background-color: orange; }
+input[type="submit"]{
+  font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:#000000;
+        background:#ff80ff;
+        border:20px;
+        width:100px;
+        height:30px;
+}
+p{
+	font-family: "Homer Simpson", cursive;
+	color:#008040;
+	font-zise:50%;
+}
