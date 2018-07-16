@@ -46,7 +46,7 @@
 				<td style="color:blue" class="title">Id</td>
 				<td style="color:blue" class="title">Url</td>
 				<td style="color:blue" class="title">Status</td>
-				<td style="color:blue" class="title">Fecha de creación</td>
+				<td style="color:blue" class="title">Fecha de creacion</td>
 				<td style="color:blue">Acciones</td>
 			</tr>
 			<%
@@ -80,18 +80,5 @@
  
   
 </center>
-
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 </body>
 </html>

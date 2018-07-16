@@ -31,7 +31,7 @@
     <li><a href="/users">Users</a>
    <li> <a href="/resources" >Resources</a>
     <li><a href="/access" >Access</a>
-    <li><a href="/profesors">Proformas</a>
+    <li><a href="/profesors">Profesores</a>
     <li><a href="/users/login"">Login</a></li>
     <li><a href="/users/logout" >Logout</a></li>
  </ul>

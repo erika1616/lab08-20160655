@@ -45,7 +45,7 @@
 				<td style="color:blue" class="title">Rol</td>
 				<td style="color:blue" class="title">Url</td>
 				<td style="color:blue" class="title">Status</td>
-				<td style="color:blue" class="title">Fecha de creaciÃ³n</td>
+				<td style="color:blue" class="title">Fecha de creacion</td>
 				<td style="color:blue">Acciones</td>
 			</tr>
 			<%

@@ -26,7 +26,7 @@ public class UsersControllerEdit extends HttpServlet {
 		User u = pm.getObjectById(User.class, k);
 		
 		PersistenceManager persistenceManager = PMF.get().getPersistenceManager();
-		String query = "select from "+Role.class.getName()+ " where name != ''";
+		String query = "select from "+Role.class.getName();
 		List<Role> roles = (List<Role>) persistenceManager.newQuery(query).execute();
 		
 		request.setAttribute("roles", roles);
@@ -44,7 +44,6 @@ public class UsersControllerEdit extends HttpServlet {
 		String day = request.getParameter("day");
 		String month = request.getParameter("month");
 		String year = request.getParameter("year");
-		Date birth = new Date(Integer.parseInt(year)-1900, Integer.parseInt(month)-1, Integer.parseInt(day));
 		String gender = request.getParameter("gender");
 		Long role = Long.parseLong(request.getParameter("role"));
 		PersistenceManager persistenceManager = PMF.get().getPersistenceManager();
@@ -70,9 +69,6 @@ public class UsersControllerEdit extends HttpServlet {
 					u.setEmail(email);
 				}
 				
-				if(!(birth==null)){
-					u.setBirth(birth);
-				}
 				
 				if(!gender.equals("")){
 					u.setGender(gender);
